@@ -13,7 +13,7 @@ grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 padding: 3rem;
 place-items: center;
 column-gap: 2rem;
-row-gap: 3rem;
+row-gap: 7rem;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
   flex-direction: column;
@@ -92,11 +92,11 @@ export const ExternalLinks = styled.a`
 color:#d4c0c0;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
+background: purple;
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: #801414;
+  background: blueviolet;
 
 }
 `;

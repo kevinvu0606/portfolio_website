@@ -1,14 +1,21 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { FooterWrapper, SocialContainer } from './FooterStyles';
 
 const Footer = () => {
   return (
-    <div>
-      Footer
-    </div>
+    <FooterWrapper>
+      <SocialContainer>
+        <SocialIcons href="https://github.com/kevinvu0606m">
+          <AiFillGithub size="3rem" />
+        </SocialIcons>
+        <SocialIcons href="https://www.linkedin.com/in/kevin-vu-06/">
+          <AiFillLinkedin size="3rem" />
+        </SocialIcons>
+      </SocialContainer>
+    </FooterWrapper>
   );
 };
 
