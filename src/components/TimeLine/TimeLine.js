@@ -46,13 +46,13 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am a pharmacist who's turned to Software Development ! From a young age I've always been interested in how software was made. It wasn't until 2019 that I was exposed to software development within the pharmacy sector. This changed my life and career goals.
+        I am a Pharmacist and a Software Engineer ! From a young age I've always been interested in how software was made. It wasn't until 2019 that I was introduced to software development within the pharmacy sector. This sparked my passion for Software Development and changed my career goals.
       </SectionText>
       <SectionText>
-        Since then I've been on a journey to better understand the all things software development. This lead me to General Assembly where I am completing their Software Engineering Immersive.
+        Since then I've been on a journey to better understand all things software development. This lead me to General Assembly where I am completing the Software Engineering Immersive course.
       </SectionText>
       <SectionText>
-        Outside of this, I'm an avid gamer, aspiring woodworker, car enthusisast and Monopoloy deal expert(not really)
+        Outside of this, I'm an avid gamer, aspiring woodworker, car enthusiast and Monopoloy deal expert (not really)
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
