@@ -52,7 +52,7 @@ const Timeline = () => {
         Since then I've been on a journey to better understand all things software development. This lead me to General Assembly where I am completing the Software Engineering Immersive course.
       </SectionText>
       <SectionText>
-        Outside of this, I'm an avid gamer, aspiring woodworker, car enthusiast and Monopoloy deal expert (not really)
+        Outside of this, I'm an avid gamer, aspiring powerlifter, car enthusiast and Monopoloy deal expert (not really)
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
